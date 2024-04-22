@@ -1,0 +1,11 @@
+{
+  "entrypoints": {
+    "app": {
+      "js": [
+        "/build/runtime.js",
+        "/build/vendors-node_modules_bootstrap_js_dist_alert_js-node_modules_bootstrap_js_dist_collapse_js-no-34070c.js",
+        "/build/app.js"
+      ]
+    }
+  }
+}
