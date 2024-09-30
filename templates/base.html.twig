@@ -17,7 +17,9 @@
             See https://symfony.com/doc/current/frontend.html
         #}
         {% block stylesheets %}{% endblock %}
+            {{ encore_entry_link_tags('app') }}
         {% block javascripts %}
+            {{ encore_entry_script_tags('app') }}
             {% block importmap %}{{ importmap('app') }}{% endblock %}
         {% endblock %}
         <link rel="shortcut icon" type="image/svg+xml" href="{{ asset('favicon.svg') }}">
