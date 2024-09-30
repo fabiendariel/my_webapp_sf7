@@ -45,7 +45,7 @@ class MainController extends AbstractController
 
         //return phpinfo();
     }
-
+/*
     #[Route('/{id}', name: 'show')]  
     public function show(Post $post): Response
     {
@@ -53,5 +53,5 @@ class MainController extends AbstractController
             'post' => $post
         ]);
     }
-}
- 
+*/
+} 
